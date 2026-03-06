@@ -107,3 +107,9 @@ button {
 button:hover {
   background: #457b9d;
 }
+
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
