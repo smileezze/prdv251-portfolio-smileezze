@@ -29,6 +29,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* media query */
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Shared link styles */
 a {
   color: #2e5339;
@@ -108,8 +115,3 @@ button:hover {
   background: #457b9d;
 }
 
-@media (max-width: 600px) {
-  main {
-    grid-template-columns: 1fr;
-  }
-}
