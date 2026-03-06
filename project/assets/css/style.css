@@ -20,7 +20,7 @@ header {
   padding: 1rem;
 }
 
-footer (
+footer {
   display: flex;
   justify-content: center
 }
