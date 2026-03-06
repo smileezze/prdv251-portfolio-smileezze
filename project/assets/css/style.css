@@ -10,6 +10,25 @@ body {
   background-color: #fdfdfd;
 }
 
+/* Flexbox layout for navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d3557;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 /* Shared link styles */
 a {
   color: #2e5339;
