@@ -20,6 +20,11 @@ header {
   padding: 1rem;
 }
 
+footer (
+  display: flex;
+  justify-content: center
+}
+
 nav a {
   color: white;
   margin-left: 1rem;
